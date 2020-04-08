@@ -11,6 +11,10 @@ If pertama memanggil fungsi cmp untuk memeriksa matrix saat ini apakah sudah men
 <br/>![path](https://user-images.githubusercontent.com/56763570/78788934-50a4fd00-7961-11ea-9b6c-f5a634585efb.PNG)<br/>
 Kemudian path tersebut akan ditambahkan sebagai child dengan cara memanggil fungsi addChilds
 <br/>![child](https://user-images.githubusercontent.com/56763570/78789247-b7c2b180-7961-11ea-86a0-abbcf9185bbe.PNG)<br/>
+Memeriksa agar tidak melakukan perpindahan yang pernah dilakukan(node parent)
+<br/>![visited](https://user-images.githubusercontent.com/56763570/78790426-58fe3780-7963-11ea-8277-8e3e62bb333a.PNG)<br/>
+Mengisi node yang akan menjadi child(new node) dengan node saat ini
+<br/>![fill](https://user-images.githubusercontent.com/56763570/78790644-ad091c00-7963-11ea-9d03-18929d9df897.PNG)<br/>
 blank space '0' bergerak ke atas
 <br/>![atas](https://user-images.githubusercontent.com/56763570/78789666-4e8f6e00-7962-11ea-9906-31c99b7782a8.PNG)<br/>
 blank space '0' bergerak ke kiri
